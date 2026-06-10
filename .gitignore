@@ -1,0 +1,18 @@
+# Temporary or local configuration folders
+.idea/
+.vscode/
+
+# Audio core models and binaries (Very Heavy)
+*.onnx
+*.bin
+model/
+whisper_model/
+
+# Databases and local storage
+storage/
+*.db
+*.wav
+
+# Duplicate or backup project environments
+AI Local website/
+my_flask_app/
