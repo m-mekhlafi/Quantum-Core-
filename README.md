@@ -63,6 +63,4 @@ python server.py
 Open your browser and navigate to http://127.0.0.1:5000 to interact with Quantum.
 
 🛡️ License
-Distributed under the FOSS (Free and Open Source Software) Spirit. Feel free to fork, modify, and build upon this core!
-
-Developed with 💻 by m-mekhlafi 
+This project is licensed under the Apache 2.0 License.
