@@ -1,5 +1,7 @@
 # 🌌 Quantum Core
-
+<div align="center">
+<img src="Quantum-core.png" w
+</div>
 An advanced, privacy-first Local AI Assistant powered by cutting-edge Open Source technologies. Quantum Core integrates speech-to-text, local large language models (LLMs), and high-quality voice synthesis into a responsive, seamless web interface.
 
 ---
