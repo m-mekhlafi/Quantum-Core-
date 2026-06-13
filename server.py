@@ -253,7 +253,8 @@ def stop_audio():
         subprocess.run(["pkill", "-9", "aplay"], check=False)
         return jsonify({"status": "Voice interrupted successfully"})
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        logging.exception("Failed to stop audio playback")
+        return jsonify({"error": "An internal error has occurred."}), 500
 
 @app.route("/")
 def index():
